@@ -6,7 +6,7 @@ biologia = float(input(nombre + "¿Cual es tu calificacion en biologia?: "))
 promedio = (matematicas+quimica+biologia) / 3
 
 if promedio >= 6:
-    print ('Felicidades ' + nombre + ' "Aprobaste"  Con un promedio: ',promedio)
+    print ('Felicidades ' + nombre + ' "Aprobaste Crack"  Con un promedio: ',promedio)
     print ('Felicidades Crack ' + nombre + ' "Aprobaste"  Con un promedio: ',round (promedio,2))
 elif promedio >= 5:
     print ('Puedes presentar ' + nombre + ' "Olimpiadas"  Con un promedio: ',promedio)
