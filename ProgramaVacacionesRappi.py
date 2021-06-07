@@ -17,7 +17,6 @@ tiempo = int(input("\nPor digite la cantidad de años laborales: "))
 
 #verificar si es clave 1
 if clave == 1:
-    print ("\nEs clave1")
     if tiempo == 1:
         print ("\nMensaje: 6 dias de vacaciones")
     elif tiempo >=2 and tiempo <=6:
@@ -27,8 +26,22 @@ if clave == 1:
     else:
         print ("\nSin derecho a Vacaciones")  
 elif clave == 2:
-    print ("\nEs clave2")
+    if tiempo == 1:
+        print ("\nMensaje: 7 dias de vacaciones")
+    elif tiempo >=2 and tiempo <=6:
+        print ("\nMensaje: 15 dias de vacaciones")
+    elif tiempo >= 7:
+        print ("\nMensaje: 22 dias de vacaciones")
+    else:
+        print ("\nSin derecho a Vacaciones")  
 elif clave == 3:
-    print ("\nEs clave3")
+    if tiempo == 1:
+        print ("\nMensaje: 10 dias de vacaciones")
+    elif tiempo >=2 and tiempo <=6:
+        print ("\nMensaje: 20 dias de vacaciones")
+    elif tiempo >= 7:
+        print ("\nMensaje: 30 dias de vacaciones")
+    else:
+        print ("\nSin derecho a Vacaciones")  
 else:
     print ("El dato no es correcto")
