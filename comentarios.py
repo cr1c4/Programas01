@@ -1,10 +1,15 @@
-#Este es un comentario
-print("hola")
-"Esto es un comentario"
+#Esto es un comentario
+print("Hola")
 
-"""hola
+"Esto es otro comentario xczczxc"
+
+
+
+""" Hola esto
 es un
-comentariojdjsjdjsk
-jndskjndsjbjbsjkbjksbjka
+comentario
+s
+s
+s
+s
 """
-
